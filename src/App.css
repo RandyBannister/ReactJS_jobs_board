@@ -1,0 +1,82 @@
+*{margin:0;padding:0;font-family: 'Raleway', sans-serif;}
+.logo{width:100px;height:40px;}
+.container{
+  width:96%;
+  margin:0 auto;
+}
+.container-md{
+  width:60%;
+  margin:0 auto;
+  padding:10px;
+}
+.main{background-color:#f6f6f6;}
+.header{background-color:#2980b9;height:30px;
+padding-left:20px;padding-right:20px;padding:10px;}
+.post-job-link{
+  color:#fff;
+  padding:5px 15px;
+  text-decoration:none;
+  background-color:#2ecc71;
+  margin-bottom:10px;
+  float:right;
+}
+
+form{
+  width:auto;
+  height: auto;
+  padding-top:20px;
+  clear:both;
+  margin-bottom:150px;
+}
+.input-group{
+  margin-bottom:10px;
+}
+.input-group input, textarea{
+  width:100%;padding:10px;
+}
+.input-group select{
+  cursor:pointer; padding:8px 15px;background-color:#ccc;margin-right:10px;
+}
+textarea{height:40px;}
+button{
+  width:150px;
+  padding:10px 15px;
+  background-color:#2ecc71;
+  color:#fff;
+  border:0;
+  cursor: pointer;
+}
+.float-left{
+  float:right;
+}
+.job-item{
+  width:100%;
+  padding:10px;
+  background-color:#fff;
+  margin-bottom:20px;
+  clear:both;
+}
+.job-item h2{color:#34495e;}
+.job-item p{margin:10px 0 15px 0; color:#333;line-height:1.5em;}
+.apply-link{
+  color:#fff;
+  background-color:#2ecc71;
+  padding:5px 15px;
+  text-decoration: none;
+}
+#jobsform{
+  display:none;
+}
+
+.tags{
+  width:auto;
+  height:auto;
+  list-style: none;
+  display: block;
+  margin-top:20px;
+  margin-bottom:80px;
+}
+.tags li{float:left;padding:10px 15px; background-color:#34495e;cursor:pointer;color:#fff;}
+.tags li:hover{background-color:#2ecc71;color:#fff;}
+.info{margin-top:10px;display:block;margin-bottom:20px;}
+.info .tag{margin-right:10px;}
